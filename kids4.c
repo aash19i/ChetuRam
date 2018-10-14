@@ -2,10 +2,10 @@
 #include<string.h>
 int main(void)
 {
-   char ch;
+   char c;
    printf("Enter the character");
-   scanf("%c",&ch);
-   if(ch>='a' && ch<='z' || ch>='A' && ch<='Z')
+   scanf("%c",&c);
+   if(c>='a' && c<='z' || c>='A' && c<='Z')
    {
       printf("alphabet");
    }
