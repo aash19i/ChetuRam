@@ -26,9 +26,9 @@ int main()
     }
 
     if(result == number)
-        printf("%d is an Armstrong number.", number);
+        printf("yes");
     else
-        printf("%d is not an Armstrong number.", number);
+        printf("no");
 
     return 0;
 }
